@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="h4">id</th>
+          <th class="h4">name</th>
+          <th class="h4">channel</th>
+          <th class="h4">seasons</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let a of animes">
+          <td>
+            <dd>{{a.id}}</dd>
+          </td>
+          <td>
+            <dd>{{a.name}}</dd>
+          </td>
+          <td>
+            <dd>{{a.channel}}</dd>
+          </td>
+          <td>
+            <dd>{{a.seasons}}</dd>
+          </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
